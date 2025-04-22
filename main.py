@@ -6,8 +6,8 @@ import math
 pygame.init()
 
 # Set up the game window
-WIDTH = 800
-HEIGHT = 600
+WIDTH = 1100
+HEIGHT = 800
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pong")
 
@@ -16,14 +16,14 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 # Paddle settings
-PADDLE_WIDTH = 10
-PADDLE_HEIGHT = 60
-PADDLE_SPEED = 7
+PADDLE_WIDTH = 15
+PADDLE_HEIGHT = 90
+PADDLE_SPEED = 12
 
 # Ball settings
 BALL_SIZE = 15
-BASE_BALL_SPEED = 5
-MAX_BALL_SPEED = 8
+BASE_BALL_SPEED = 9
+MAX_BALL_SPEED = 12
 
 # Center line settings
 CENTER_LINE_WIDTH = 2
